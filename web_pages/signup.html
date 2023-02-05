@@ -1,0 +1,92 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Welocome to Discover E-Banking</title>
+    
+        
+        <link type="text/css" rel="stylesheet" href="../bootstrap-4.1.1-dist/css/bootstrap.min.css">
+        <script src="../bootstrap-4.1.1-dist/js/bootstrap.min.js"></script>
+        <meta>
+        <style>
+            #bdy{
+                background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../image/bac2.jpg');
+                margin-top: 0;
+                padding: 0;
+            }
+            .signup{
+                background-color: white;
+                border-radius: 10px;
+                opacity: .7;
+               
+                
+            }
+            td{
+                padding: 20px;
+            }
+            input:hover{
+                border: solid blue;
+                border-radius: 5px;
+            }
+            .signup:hover{
+                opacity: ;
+                
+                
+                
+            }
+        </style>
+    </head>
+    <body id="bdy">
+        <center>
+        <div class="form-group">
+            <form class="sign-up" onsubmit="signup();" method="post">
+                <table class="signup">
+                    <tr>
+					
+                        <th colspan="2"><center><h2>SignUp</h2></center></th>
+					
+                    </tr>
+                    <tr>
+                        <td><label>Full Name</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <br/>
+                    <tr>
+                        <td><label>Id card number</label></td>
+                        <td><input type="text" maxlength="10"></td>
+                    </tr>
+                    <br/>
+                    <tr>
+                        <td><label>Bank account num</label></td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <br/>
+                    <tr>
+                        <td><label>E-mail</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <br/>
+                    <tr>
+                        <td><label>Phone number</label></td>
+                        <td><input type="number" maxlength="10"></td>
+                    </tr>
+                    <br/>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><input type="password" maxlength="15"></td>
+                    </tr>
+                    <br/>
+                    <tr>
+                        <td><label>Re-enter password</label></td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><input type="reset"></td>
+                        <td><input type="submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </center>
+    </body>
+</html>
